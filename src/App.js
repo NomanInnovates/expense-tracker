@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Balance from './components/Balance'
 import { AccountSummary } from './components/AccountSummary'
+import { AddTransaction } from './components/AddTransaction'
 import { TransactionHistory } from './components/TransactionHistory'
 
 function App() {
