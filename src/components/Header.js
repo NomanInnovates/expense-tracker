@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Expense app by Noman Sandhu</div>
+    <h3>Expense app by <b style={{fontSize:22}}>Noman Sandhu</b></h3>
   )
 }
 
