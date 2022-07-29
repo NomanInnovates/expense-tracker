@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import Header from './components/Header'
 import Balance from './components/Balance'
 import { AccountSummary } from './components/AccountSummary'
