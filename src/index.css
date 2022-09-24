@@ -19,15 +19,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-#root{
-  padding: 20px;
-  background: #eee;
-  border-radius: 25px;
-}
 
+.dark{
+  padding: 14px;
+  border-radius: 30px;
+  background: #1c1c1c;
+  color: rgb(182, 182, 182);
+}
 .container {
   width: 350px;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 h1 {
@@ -36,7 +37,7 @@ h1 {
 }
 
 h3 {
-  margin: 40px 0 10px;
+  margin: 30px 0 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #bbb;
 }
@@ -102,7 +103,7 @@ input[type='number'] {
   cursor: pointer;
   font-size: 16px;
   margin: 10px 0 30px;
-  background-color: #9c88ff;
+  background-color: #c12f4a;
   box-shadow: var(--box-shadow);
 }
 

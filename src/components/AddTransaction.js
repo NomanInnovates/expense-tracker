@@ -9,12 +9,18 @@ export const AddTransaction = () => {
 
     const handleAddTransaction = (e) => {
         e.preventDefault()
+        if(transactionAmount === 0){
+            alert("Please enter a some amount")
+            return
+        }
         let newTransaction = {
             id: new Date().getTime(),
             description,
             amount:+transactionAmount
         }
         addTransaction(newTransaction)
+        setDescription("")
+        setTransactionAmount(0)
     }
     return (
         <div>
